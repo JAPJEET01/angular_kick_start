@@ -1,0 +1,172 @@
+*{
+    margin: 0%;
+}
+body{
+    background-image: url("assets/new.png");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+}
+
+
+.padding{
+    padding-top: 900px;
+}
+#divi{
+    height: 3px;
+    width: 100%;
+    background-color: red;
+}
+
+#big{
+    font-size: 20px;
+    
+}
+.color{
+    background-color: #019498;
+}
+
+
+.card{
+    padding : 0px;
+     }
+
+     
+a:hover{
+    font-size: 20px;
+    color: red; 
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.textsmall{
+    font-size:  12px;
+}
+.animation{
+    animation: a1 1s  linear;
+    position: relative;
+}
+@keyframes a1 {
+    from{
+        top: 0px; left: -500px;
+        
+    }
+    to{
+        
+        top: 0px; left: 0px;
+    }
+}
+.animation2{
+    animation: a2 1s  linear;
+    position: relative;
+}
+@keyframes a2 {
+    from{
+        top: 0px; right: -900px;
+        
+    }
+    to{
+        
+        top: 0px; right: 0px;
+    }
+}
+.animation4{
+    animation: a4 1s  forwards;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+@keyframes a4 {
+    from{
+        top: 0px; right: -900px;
+        
+    }
+    to{
+        
+        top: 0px; right: 0px;
+    }
+}
+.animation3{
+    animation: a3 1s  linear;
+    position: relative;
+}
+@keyframes a3 {
+    from{
+        font-size: 0px;
+        
+    }
+    to{
+        
+        font-size: 10px;
+    }
+}
+.animationtop{
+    animation: atop 1s  linear;
+    position: relative;
+}
+@keyframes atop {
+    from{
+        bottom: 500px;
+        
+    }
+    to{
+        
+        bottom: 0px;
+        
+            }
+}
+
+.assets{
+
+    background-image: url("assets/istockphoto-1188168938-612x612-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.img2{
+
+    background-image: url("assets/bgimg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.black{
+    background-color: #191919;
+}
+
+.blue{
+    background-color: #80BFBF;
+}
+
+
+
+.stroke{
+    color: black;
+    -webkit-text-fill-color: red; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+  }
+
+.stroke2{
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+  }
+.stroke3{
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 6px;
+    -webkit-text-stroke-color: black;
+  }
+
+
+#colorwhite{
+    background-color: rgba(0,0,255, 0.2);
+}
+
+.colorr{
+    background-color: #019498;
+}
